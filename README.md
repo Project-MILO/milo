@@ -62,9 +62,6 @@ pre-commit install
 | Hook Info                                                                | Type                 | Languages                             |
 | ------------------------------------------------------------------------ | -------------------- | ------------------------------------- |
 | [clang-format](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) | Formatter            | C, C++, ObjC                          |
-| [clang-tidy](https://clang.llvm.org/extra/clang-tidy/)                   | Static code analyzer | C, C++, ObjC                          |
-| [oclint](http://oclint.org/)                                             | Static code analyzer | C, C++, ObjC                          |
-| [uncrustify](http://uncrustify.sourceforge.net/)                         | Formatter            | C, C++, C#, ObjC, D, Java, Pawn, VALA |
 | [cppcheck](http://cppcheck.sourceforge.net/)                             | Static code analyzer | C, C++                                |
 | [cmake-format](https://pypi.org/project/cmake-format/)                   | Formatter            | CMake                                 |
 | [cmake-lint](https://pypi.org/project/cmakelint/)                        | Static code analyzer | CMake                                 |
