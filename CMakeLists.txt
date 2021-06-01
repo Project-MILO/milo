@@ -51,7 +51,7 @@ FetchContent_MakeAvailable(fmtlib)
 # Adds fmt::fmt
 
 # The compiled library code is here
-add_subdirectory(src)
+add_subdirectory(milo)
 
 # The executable code is here
 add_subdirectory(apps)
@@ -60,5 +60,5 @@ add_subdirectory(apps)
 # PROJECT_MILO_BUILD_TESTING provided as well
 if((CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME OR PROJECT_MILO_BUILD_TESTING)
    AND BUILD_TESTING)
-  add_subdirectory(tests)
+  # add_subdirectory(tests)
 endif()
